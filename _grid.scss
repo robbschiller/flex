@@ -6,8 +6,8 @@
   -webkit-flex-wrap: wrap;
  
   .grid--gutters {
-    margin-left: -$grid-gutter__width;
-    .grid--item {
+    margin-left: (-$grid-gutter__width);
+    > .grid--item {
       padding-left: $grid-gutter__width;
     }
   }
@@ -15,7 +15,7 @@
   .grid--item {
     flex: 1;
     -webkit-flex: 1;
-    @media (min-width: $grid--item__break) {
+    @media (max-width: $grid--item__break) {
       flex: 0 0 100%;
       -webkit-flex: 0 0 100%;
     }
