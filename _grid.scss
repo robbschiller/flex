@@ -18,6 +18,6 @@
 .grid--gutters {
   margin-left: (-$grid-gutter__width);
   > .grid--item {
-    padding-left: $grid-gutter__width;
+    margin-left: $grid-gutter__width;
   }
 }
