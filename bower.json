@@ -1,18 +1,11 @@
 {
   "name": "aglobof-sass.grid",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "homepage": "aglobof.github.io",
   "authors": [
     "Robb Schiller <robbschiller@gmail.com>"
   ],
-  "description": "Flexbox grid system",
-  "main": "_grid.scss",
-  "moduleType": [
-    "globals"
-  ],
-  "keywords": [
-    "scss"
-  ],
+  "description": "A glob of flexbox grid",
   "license": "MIT",
   "ignore": [
     "**/.*",

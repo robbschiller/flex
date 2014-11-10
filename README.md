@@ -7,19 +7,22 @@ bower install aglobof-sass.grid
 ```
 
 ## Usage
-The grid system exposes two variables requiring declaration. 
 
-`$grid-gutter__width`   
-and  
-`$grid--item__break`   
+The grid system exposes two variables requiring declaration, `$grid-break` and `$grid-gutter-width`.
 
 Both variables need values for the grid to compile. Here's an example sass file for loading the grid -
 
-```css
+```sass
 // Grid Settings
-$grid-gutter__width: 20px;
-$grid--item__break: 760px;
+$grid-break: 760px;
+$grid-gutter-width: 20px;
 
 // Import Grid
-@import './path/to/bower/aglobof-sass.grid/grid';
+@import 'bower_components/aglobof-sass.grid/grid';
+```
+
+Or, import the glob file -
+
+``` sass
+@import "bower_components/aglobof-sass.grid/glob";
 ```
