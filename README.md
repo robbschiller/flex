@@ -8,9 +8,9 @@ bower install aglobof-sass.grid
 
 ## Usage
 
-The grid system exposes two variables requiring declaration, `$grid-break` and `$grid-gutter-width`.
+The grid system exposes two variables, `$grid-break`, defaulted to `768px` and `$grid-gutter-width` defaulted to `24px`.
 
-Both variables need values for the grid to compile. Here's an example sass file for loading the grid -
+If you want to change the values, declare new variable values before importing the partial.
 
 ```sass
 // Grid Settings
@@ -26,3 +26,7 @@ Or, import the glob file -
 ``` sass
 @import "bower_components/aglobof-sass.grid/glob";
 ```
+
+### Requirements
+
+Because [flexbox](http://caniuse.com/#search=flexbox) adpoption is still growing, it's recommended you use Autoprefixer to define the required vendor prefixes.

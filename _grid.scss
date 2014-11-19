@@ -1,13 +1,26 @@
-// Grid Setup
+// Glob - Flexbox Grid
+// ===================
+
+// Define Variable Defaults
+// --------------------------------------------------
+// These variables give the grid a default state, a
+// breakpoint at 768px and gutter width of 24px.
+// --------------------------------------------------
+$grid-break: 768px!default;
+$grid-gutter-width: 24px;
+
+// Setup the grid
+// --------------------------------------------------
+// A rudimentary flexbox grid, .grid--item 's will
+// fill the space, .grid defines a row and fills its
+// parent container
+// --------------------------------------------------
 .grid {
   display: flex;
-  display: -webkit-flex;
   flex-wrap: wrap;
-  -webkit-flex-wrap: wrap;
 
   .grid--item {
     flex: 1;
-    -webkit-flex: 1;
     @media (max-width: $grid-break) {
       flex: 0 0 100%;
       -webkit-flex: 0 0 100%;
@@ -16,7 +29,7 @@
 }
  
 .grid--gutters {
-  margin-left: (-$grid-gutter-width);
+  margin-left: -$grid-gutter-width;
   > .grid--item {
     margin-left: $grid-gutter-width;
   }
