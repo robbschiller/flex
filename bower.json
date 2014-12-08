@@ -1,11 +1,11 @@
 {
-  "name": "aglobof-sass.grid",
+  "name": "flex.grid",
   "version": "1.0.0",
-  "homepage": "aglobof.github.io",
+  "homepage": "robbschiller.com/flex",
   "authors": [
     "Robb Schiller <robbschiller@gmail.com>"
   ],
-  "description": "A glob of flexbox grid",
+  "description": "A flexbox grid",
   "license": "MIT",
   "ignore": [
     "**/.*",
