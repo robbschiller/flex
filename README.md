@@ -1,9 +1,11 @@
-# sass.grid
-> Flexbox Grid System
+# Flex
+> A flexbox grid system
+
+![](http://f.cl.ly/items/1K2V3H163g3Q3g2D1O2v/Image%202014-12-08%20at%206.26.35%20PM.png)
 
 ## Installation
 ```
-bower install aglobof-sass.grid
+bower install flex.grid
 ```
 
 ## Usage
@@ -18,13 +20,7 @@ $grid-break: 760px;
 $grid-gutter-width: 20px;
 
 // Import Grid
-@import 'bower_components/aglobof-sass.grid/grid';
-```
-
-Or, import the glob file -
-
-``` sass
-@import "bower_components/aglobof-sass.grid/glob";
+@import 'bower_components/flex/grid';
 ```
 
 ### Requirements
