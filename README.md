@@ -1,4 +1,4 @@
-# Flex
+# Flex [![Build Status](https://travis-ci.org/robbschiller/flex.svg?branch=master)](https://travis-ci.org/robbschiller/flex)
 > A flexbox grid system
 
 ![](http://f.cl.ly/items/1K2V3H163g3Q3g2D1O2v/Image%202014-12-08%20at%206.26.35%20PM.png)

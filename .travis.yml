@@ -1,0 +1,6 @@
+script:
+  - "./test.sh"
+
+before_install:
+  - gem install sass
+  - "npm install node-sass bower -g && bower install flex.grid"
