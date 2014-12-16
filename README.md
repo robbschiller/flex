@@ -10,14 +10,14 @@ bower install flex.grid
 
 ## Usage
 
-The grid system exposes two variables, `$grid-break`, defaulted to `768px` and `$grid-gutter-width` defaulted to `24px`.
+The grid system exposes two variables, `$gridBreak`, defaulted to `768px` and `$gridGutterWidth` defaulted to `1em`.
 
 If you want to change the values, declare new variable values before importing the partial.
 
 ```sass
 // Grid Settings
-$grid-break: 760px;
-$grid-gutter-width: 20px;
+$gridBreak: 760px;
+$gridGutterWidth: 20px;
 
 // Import Grid
 @import 'bower_components/flex/grid';
