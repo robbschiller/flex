@@ -1,11 +1,11 @@
 {
-  "name": "flex.grid",
+  "name": "flex-site",
   "version": "1.0.0",
-  "homepage": "robbschiller.com/flex",
+  "homepage": "robbschiller.github.io/flex",
   "authors": [
     "Robb Schiller <robbschiller@gmail.com>"
   ],
-  "description": "A flexbox grid",
+  "description": "Website for Flex",
   "license": "MIT",
   "ignore": [
     "**/.*",
@@ -13,5 +13,8 @@
     "bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "dependencies": {
+    "flex.grid": "~1.0.0"
+  }
 }
