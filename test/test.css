@@ -1,13 +1,26 @@
-.Grid {
-  display: flex;
-  flex-wrap: wrap; }
-  .Grid .Col {
+.Row {
+  display: flex; }
+  .Row .Col {
     flex: 1; }
     @media (max-width: 767px) {
-      .Grid .Col {
+      .Row .Col {
         flex: 0 0 100%; } }
 
-.Grid-gutters {
-  margin-left: -1em; }
-  .Grid-gutters > .Col {
-    margin-left: 1em; }
+.Row-full > .Col {
+  flex: 0 0 100%; }
+
+.Row-half > .Col {
+  flex: 0 0 50%; }
+
+.Row-third > .Col {
+  flex: 0 0 33.3333%; }
+
+.Row-quarter > .Col {
+  flex: 0 0 25%; }
+
+.Gutters {
+  margin: -1em 0 -1em; }
+  .Gutters > .Col {
+    padding: 1em 0 0 1em; }
+
+/*# sourceMappingURL=test.css.map */

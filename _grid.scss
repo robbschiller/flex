@@ -7,7 +7,7 @@
 // breakpoint at 768px and gutter width of 24px.
 // --------------------------------------------------
 $gridBreak: 767px !default;
-$gridGutterWidth: 1em !default;
+$gutterWidth: 1em !default;
 
 // Setup the grid
 // --------------------------------------------------
@@ -15,9 +15,8 @@ $gridGutterWidth: 1em !default;
 // fill the space, .grid defines a row and fills its
 // parent container
 // --------------------------------------------------
-.Grid {
+.Row {
   display: flex;
-  flex-wrap: wrap;
 
   .Col {
     flex: 1;
@@ -26,10 +25,34 @@ $gridGutterWidth: 1em !default;
     }
   }
 }
- 
-.Grid-gutters {
-  margin-left: -$gridGutterWidth;
+
+.Row-full {
   > .Col {
-    margin-left: $gridGutterWidth;
+    flex: 0 0 100%;
+  }
+}
+
+.Row-half {
+  > .Col {
+    flex: 0 0 50%;
+  }
+}
+
+.Row-third {
+  > .Col {
+    flex: 0 0 33.3333%;
+  }
+}
+
+.Row-quarter {
+  > .Col {
+    flex: 0 0 25%;
+  }
+}
+ 
+.Gutters {
+  margin: -$gutterWidth 0 0 -$gutterWidth;
+  > .Col {
+    padding: $gutterWidth 0 0 $gutterWidth;
   }
 }
