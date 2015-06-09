@@ -6,7 +6,7 @@
 // These variables give the grid a default state, a
 // breakpoint at 768px and gutter width of 24px.
 // --------------------------------------------------
-$gridBreak: 768px !default;
+$gridBreak: 767px !default;
 $gridGutterWidth: 1em !default;
 
 // Setup the grid
@@ -23,7 +23,6 @@ $gridGutterWidth: 1em !default;
     flex: 1;
     @media (max-width: $gridBreak) {
       flex: 0 0 100%;
-      -webkit-flex: 0 0 100%;
     }
   }
 }
