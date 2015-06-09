@@ -6,6 +6,8 @@
 ## Installation
 ```
 bower install flex.grid
+// or
+npm install flex.grid
 ```
 
 ## Usage
