@@ -17,6 +17,7 @@ $gutterWidth: 1em !default;
 // --------------------------------------------------
 .Row {
   display: flex;
+  flex-wrap: wrap;
 
   .Col {
     flex: 1;
@@ -51,7 +52,7 @@ $gutterWidth: 1em !default;
 }
  
 .Gutters {
-  margin: -$gutterWidth 0 0 -$gutterWidth;
+  margin: (-$gutterWidth) 0 $gutterWidth (-$gutterWidth);
   > .Col {
     padding: $gutterWidth 0 0 $gutterWidth;
   }

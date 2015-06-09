@@ -1,5 +1,5 @@
 script:
-  - "./test.sh"
+  - "./test"
 
 before_install:
   - gem install sass
